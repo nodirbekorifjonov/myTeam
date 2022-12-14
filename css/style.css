@@ -498,6 +498,7 @@ body {
   gap: 1.6rem;
   margin-bottom: 3.5rem;
 }
+
 .footer__item {
 }
 .footer__link {
@@ -623,6 +624,25 @@ body {
   font-weight: 500;
   font-style: italic;
   line-height: var(--main-line-height-2);
+}
+
+.meeting__socials {
+  display: flex;
+  justify-content: end;
+  gap: 1.6rem;
+}
+
+.meeting__socials-link {
+  color: var(--primary-white-color);
+  font-size: 2.4rem;
+}
+
+.meeting__socials-link:hover {
+  color: var(--primary-light-color);
+}
+
+.meeting__socials-link:active {
+  opacity: 0.6;
 }
 
 .meeting__item-form {
