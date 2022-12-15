@@ -20,7 +20,7 @@
 }
 /* livvic-600 - latin */
 @font-face {
-  font-family: "Livvic";
+  font-family: "Livvic-Semi-Bold";
   font-style: normal;
   font-weight: 600;
   src: local(""), url("../fonts/livvic-v13-latin-600.woff2") format("woff2"),
@@ -29,7 +29,7 @@
 }
 /* livvic-700 - latin */
 @font-face {
-  font-family: "Livvic";
+  font-family: "Livvic-Bold";
   font-style: normal;
   font-weight: 700;
   src: local(""), url("../fonts/livvic-v13-latin-700.woff2") format("woff2"),
@@ -38,7 +38,7 @@
 }
 /* livvic-700italic - latin */
 @font-face {
-  font-family: "Livvic";
+  font-family: "Livvic-Bold";
   font-style: italic;
   font-weight: 700;
   src: local(""),
@@ -66,7 +66,7 @@
   /* FONTS */
 
   /* main fonts 1 */
-  --main-font-family: "Lavvic", Arial, Helvetica, sans-serif;
+  --main-font-family: "Livvic-Semi-Bold", Arial, Helvetica, sans-serif;
   --main-font-size-1: 1.8rem;
   --main-font-size-2: 1.5rem;
   --main-font-weight: 600;
