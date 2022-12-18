@@ -705,3 +705,103 @@ body {
 }
 .clients__brands-img {
 }
+
+/* CONTACT PAGE */
+.contact {
+  padding: 5rem 0 12rem;
+  background-image: url(../images/svg/about-meeting-bg-top.svg),
+    url(../images/svg/about-hero-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: left top 4.5rem, right bottom;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.contact__info {
+  width: 54rem;
+}
+
+.contact__title {
+  font-size: var(--h1-small-size);
+  line-height: var(--main-line-height-1);
+  margin-bottom: 1.6rem;
+}
+
+.contact__description {
+  font-size: 3.2rem;
+  color: var(--primary-light-color);
+  margin-bottom: 3.2rem;
+  line-height: 1.5;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.contact__item-img {
+}
+
+.contact__item-info {
+}
+
+.contact__item-title {
+  font-size: var(--h3-size);
+  line-height: var(--h3-line-height);
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 54rem;
+  row-gap: 2.4rem;
+}
+
+.contact__form input,
+textarea {
+  padding: 2px 1.4rem 1.7rem;
+  border: none;
+  border-bottom: 1px solid var(--primary-white-color);
+  background-color: transparent;
+  outline: none;
+  color: var(--primary-white-color);
+  font-size: var(--main-font-size-2);
+  letter-spacing: -0.12px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--primary-white-color);
+  opacity: 0.6;
+}
+
+.contact__btn {
+  background-color: var(--primary-white-color);
+  color: var(--secondary-deep-green-color);
+  margin-right: auto;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.contact__btn:hover {
+  border-color: var(--primary-white-color);
+  color: var(--primary-white-color);
+  background-color: transparent;
+}
+
+.contact__btn:active {
+  background-color: var(--primary-white-color);
+  color: var(--secondary-deep-green-color);
+  border-color: transparent;
+}
